@@ -16,28 +16,29 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2022 - 2023"
+            iconStyle={{ background: '#bab7bd', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Python Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">K7 Computing</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Automation, Web Scraping, Machine Learning, Django Web Application Development
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="2019 - 2021"
+            iconStyle={{ background: '#bab7bd', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Junior Software Developer R&D </h3>
+            <h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4> 
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Computer Vision, OCR, API Development, System Application Development
             </p>
           </VerticalTimelineElement>
+          {/* 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021 - 2021"
@@ -62,6 +63,7 @@ function Timeline() {
               Automation, Data Governance, Statistical Analysis
             </p>
           </VerticalTimelineElement>
+          */}
         </VerticalTimeline>
       </div>
     </div>
