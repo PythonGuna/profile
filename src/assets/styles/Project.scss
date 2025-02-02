@@ -10,6 +10,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
+.projects-container .projects-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Makes all images square */
+    object-fit: cover;
+  }
   
 .projects-container .projects-grid .project {
     text-align: left;

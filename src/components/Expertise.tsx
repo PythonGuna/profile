@@ -26,21 +26,23 @@ const labelsSecond = [
     "GitHub Actions",
     "Docker",
     "kubernetes",
+    "Jenkins",
     "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
     "Selenium",
+    "Beautiful Soup",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "TensorFlow",
+    "Keras",
+    "Scikit-learn",
+    "PyTorch",
+    "OpenCV",
+    "PyTesseract",
+    "Pandas",
+    "NumPy",
 ];
 
 function Expertise() {
@@ -52,7 +54,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>Experienced in Full Stack Development, with expertise in building and maintaining scalable web applications. Skilled in front-end and back-end development, database management, and integrating APIs to create seamless user experiences.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -64,7 +66,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>Experienced in DevOps and Automation, with expertise in CI/CD pipelines, containerization, and cloud deployments. Skilled in automating workflows, managing infrastructure, and optimizing development processes to improve efficiency and scalability.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -75,8 +77,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>ML & AI</h3>
+                    <p>Experienced in Machine Learning and AI, specializing in building classification models, implementing OCR-based automation, and applying clustering algorithms to optimize data processing. Skilled in leveraging Python and various ML frameworks to develop efficient and scalable solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
