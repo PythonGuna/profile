@@ -1,10 +1,12 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
+import { createTheme, ThemeProvider } from '@mui/material';
+import { useLayoutEffect } from "react";
 
 function Contact() {
 
@@ -26,27 +28,28 @@ function Contact() {
     setMessageError(message === '');
 
     /* Uncomment below if you want to enable the emailJS */
+    
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+    if (name !== '' && email !== '' && message !== '') {
+      var templateParams = {
+        name: name,
+        email: email,
+        message: message
+      };
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+      console.log(templateParams);
+      emailjs.send('service_knw8gzt', 'template_rgoy2fx', templateParams, 'UAiigVEyHGvlBJ0Yp').then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        },
+      );
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
   return (
@@ -61,6 +64,15 @@ function Contact() {
             noValidate
             autoComplete="off"
             className='contact-form'
+            //sx={{ backgroundColor: "white",borderRadius: "16px"  }}
+            sx={{ 
+              backgroundColor: "white", 
+              padding: 2, 
+              borderRadius: "16px", 
+              display: "flex", 
+              flexDirection: "column", 
+              gap: 1// Adds space between elements
+            }}
           >
             <div className='form-flex'>
               <TextField
@@ -78,8 +90,9 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Email / Phone"
+                label="Email / Phonee"
                 placeholder="How can I reach you?"
+                inputProps={{ className:"input__"  }}
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -103,7 +116,7 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+            <Button variant="contained" endIcon={<SendIcon />} sx={{ alignSelf: "center" }} onClick={sendEmail}>
               Send
             </Button>
           </Box>

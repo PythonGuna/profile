@@ -14,6 +14,7 @@ const labelsFirst = [
     "SASS",
     "Flask",
     "Python",
+    "Django",
     "SQL",
     "PostgreSQL",
     "Postman"
@@ -23,6 +24,7 @@ const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
+    "kubernetes",
     "AWS",
     "Azure",
     "Linux",
