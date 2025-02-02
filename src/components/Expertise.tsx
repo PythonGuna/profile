@@ -17,7 +17,8 @@ const labelsFirst = [
     "Django",
     "SQL",
     "PostgreSQL",
-    "Postman"
+    "Postman",
+    "git",
 ];
 
 const labelsSecond = [
