@@ -37,7 +37,6 @@ const labelsSecond = [
 const labelsThird = [
     "OpenAI",
     "Groq",
-    "LangChain",
     "Qdrant",
     "Hugging Face",
     "LlamaIndex",
