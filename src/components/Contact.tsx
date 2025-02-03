@@ -57,7 +57,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p>Are you interested in hiring me and testing my skills through an interview? Feel free to send a message.</p>
           <Box
             ref={form}
             component="form"
@@ -90,7 +90,7 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Email / Phonee"
+                label="Your Email / Phonee"
                 placeholder="How can I reach you?"
                 inputProps={{ className:"input__"  }}
                 value={email}
