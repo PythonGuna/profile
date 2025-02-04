@@ -88,8 +88,14 @@
 
 @media screen {
     @media (max-width: 567px) {
+        .about-section .content {
+            h1 {
+                font-size: 2em !important;
+            }
+        }
         .about-section h1 {
-            font-size: 2em !important;
+            font-size: 1em !important;
+            word-break: break-word;
             text-align: left;
         }
         .nav-left{
