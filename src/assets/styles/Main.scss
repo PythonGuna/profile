@@ -90,7 +90,10 @@
 @media screen {
     @media (max-width: 567px) {
         .about-section h1 {
-            font-size: 0.6em !important; 
+            font-size: 0.6em !important;
+            width: fit-content;
+            max-width: 100%;
+
         }
         .nav-left{
             padding-top: 20px;
