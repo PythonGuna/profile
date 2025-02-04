@@ -53,10 +53,11 @@
 
 @media (max-width: 567px) {
     .about-section h1 {
-        font-size: 1em !important; 
-        text-align: center; 
-        word-break: break-word; 
-        overflow-wrap: break-word;
+        font-size: 0.6em !important; 
+        text-align: center;
+        white-space: nowrap;
+        /*word-break: break-word; 
+        overflow-wrap: break-word;*/
     }
 }
 /*
