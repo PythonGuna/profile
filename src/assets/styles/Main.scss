@@ -50,16 +50,15 @@
 }
 
 /* Adjust based on testing */
-/*
+
 @media (max-width: 567px) {
     .about-section h1 {
-        font-size: 0.6em !important; 
-        text-align: center;
+        font-size: 0.3em !important; 
+        /*text-align: center;*/
         word-break: break-word; 
-        overflow-wrap: break-word;
+        /*overflow-wrap: break-word;*/
     }
 }
-*/
 /*
 .about-section h1 {
     font-size: 2vw;
@@ -89,10 +88,6 @@
 
 @media screen {
     @media (max-width: 567px) {
-        .about-section h1 {
-            font-size: 0.3em !important;
-
-        }
         .nav-left{
             padding-top: 20px;
             float:left;
