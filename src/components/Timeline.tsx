@@ -21,7 +21,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Python Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">K7 Computing</h4>
+            <a href="https://www.k7computing.com/us/" target="_blank" rel="noopener noreferrer"><h4 className="vertical-timeline-element-subtitle">K7 Computing</h4></a>
             <p>
               Automation, Web Scraping, Machine Learning, Django Web Application Development
             </p>
@@ -33,7 +33,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Junior Software Developer R&D </h3>
-            <h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4> 
+            <a href="https://www.wisetechsource.com/" target="_blank" rel="noopener noreferrer"><h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4></a>
             <p>
               Computer Vision, OCR, API Development, Image Processing 
             </p>
@@ -46,7 +46,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Junior Software Developer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4>
+            <a href="https://www.wisetechsource.com/" target="_blank" rel="noopener noreferrer"><h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4></a>
             <p>
               Desktop Application Development, Python, Chatpot
             </p>
