@@ -50,18 +50,20 @@
 }
 
 /* Adjust based on testing */
-
+/*
 @media (max-width: 567px) {
     .about-section h1 {
-        font-size: 1em !important; /* Reduce size for small screens */
-        /*text-align: center;  Center align for better readability */
-        word-break: break-word; /* Ensure the name wraps correctly */
+        font-size: 1em !important; 
+        text-align: center; 
+        word-break: break-word; 
         overflow-wrap: break-word;
     }
 }
-/*.about-section h1 {
-    font-size: 5vw;
+*/
+.about-section h1 {
+    font-size: 2vw;
 }
+/*
 .about-section h1 {
     max-width: 90%;
     white-space: normal;
