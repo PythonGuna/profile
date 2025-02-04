@@ -54,7 +54,7 @@
 @media (max-width: 567px) {
     .about-section h1 {
         font-size: 1em !important; /* Reduce size for small screens */
-        text-align: center; /* Center align for better readability */
+        /*text-align: center;  Center align for better readability */
         word-break: break-word; /* Ensure the name wraps correctly */
         overflow-wrap: break-word;
     }
