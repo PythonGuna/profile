@@ -88,6 +88,9 @@
 
 @media screen {
     @media (max-width: 567px) {
+        .about-section {
+            padding: 0px 5% !important;
+        }
         .about-section .content {
             h1 {
                 font-size: 3em !important;
