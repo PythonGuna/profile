@@ -17,7 +17,7 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2022 - 2023"
-            iconStyle={{ background: '#bab7bd', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Python Developer</h3>
@@ -29,13 +29,26 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2019 - 2021"
-            iconStyle={{ background: '#bab7bd', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Junior Software Developer R&D </h3>
             <h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4> 
             <p>
-              Computer Vision, OCR, API Development, System Application Development
+              Computer Vision, OCR, API Development, Image Processing 
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2019-2019"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Junior Software Developer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Wise Tech Source Solutions</h4>
+            <p>
+              Desktop Application Development, Python, Chatpot
             </p>
           </VerticalTimelineElement>
           {/* 
