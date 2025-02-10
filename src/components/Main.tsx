@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import finalone from '../assets/images/finalone.jpg';
+import finalone from '../assets/images/finalone.jpeg';
 
 function Main() {
 
